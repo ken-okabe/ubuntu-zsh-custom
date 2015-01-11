@@ -10,10 +10,7 @@ alias x="node test"
 alias kn="killall -9 node"
 alias t="tmux"
 alias h="htop"
-
-alias gd="/home/ken/Google\ Drive"
-
+alias gd="/home/ken/gd"
 alias as="/home/ken/Google\ Drive/atom-shell/atom"
- 
 source ~/.nvm/nvm.sh
 nvm use v0.11.14
