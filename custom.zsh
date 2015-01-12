@@ -5,12 +5,10 @@ alias s='git add -A -v; git commit -m "commit"'
 alias sp="s; git push origin master"
 alias a="atom"
 alias f="ranger"
-alias z="node app"
-alias x="node test"
+alias z="iojs app"
+alias x="iojs test"
 alias kn="killall -9 node"
 alias t="tmux"
 alias h="htop"
 alias gd="/home/ken/gd"
 alias as="/home/ken/Google\ Drive/atom-shell/atom"
-source ~/.nvm/nvm.sh
-nvm use v0.11.14
