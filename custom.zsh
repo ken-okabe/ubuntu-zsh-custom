@@ -10,3 +10,4 @@ alias x="/home/ken/iojs-v1.0.3-linux-x64/bin/iojs test"
 alias kn="killall -9 node"
 alias t="tmux"
 alias h="htop"
+alias vmtool=`sudo vmware-config-tools.pl`
