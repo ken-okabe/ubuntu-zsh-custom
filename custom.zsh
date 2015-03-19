@@ -1,6 +1,9 @@
 uname -r
 ZSH_THEME="ys"
 export JAVA_HOME=/usr/lib/jvm/java-7-oracle/jre/bin/java
+
+sudo pm-powersave true
+
 alias s='git add -A -v; git commit -m "commit"'
 alias sp="s; git push origin master"
 alias a="atom"
@@ -10,4 +13,4 @@ alias x="/home/ken/iojs-v1.0.3-linux-x64/bin/iojs test"
 alias kn="killall -9 node"
 alias t="tmux"
 alias h="htop"
-alias vmtool=`sudo vmware-config-tools.pl`
+#alias vmtool=`sudo vmware-config-tools.pl`
