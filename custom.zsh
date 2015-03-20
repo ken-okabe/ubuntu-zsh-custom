@@ -2,8 +2,6 @@ uname -r
 ZSH_THEME="ys"
 export JAVA_HOME=/usr/lib/jvm/java-7-oracle/jre/bin/java
 
-sudo pm-powersave true
-
 alias s='git add -A -v; git commit -m "commit"'
 alias sp="s; git push origin master"
 alias a="atom"
