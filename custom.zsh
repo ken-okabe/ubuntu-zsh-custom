@@ -12,3 +12,11 @@ alias kn="killall -9 node"
 alias t="tmux"
 alias h="htop"
 #alias vmtool=`sudo vmware-config-tools.pl`
+
+alias sc='sudo iwlist mlan0 s'
+alias i='ifconfig & iwconfig'
+alias c='sudo wpa_supplicant -i mlan0 -c wpa.conf -D wext'
+alias ci='sudo dhclient mlan0'
+
+alias wd='sudo modprobe -r mwifiex_usb'
+alias wu='sudo modprobe mwifiex_usb'
