@@ -20,3 +20,5 @@ alias ci='sudo dhclient mlan0'
 
 alias wd='sudo modprobe -r mwifiex_usb'
 alias wu='sudo modprobe mwifiex_usb'
+
+alias up='sudo ifconfig mlan0 up'
