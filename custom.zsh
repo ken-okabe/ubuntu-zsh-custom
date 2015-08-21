@@ -16,7 +16,10 @@ alias h="htop"
 #alias vmtool=`sudo vmware-config-tools.pl`
 alias gd='/home/ken/Google\ Drive'
 
-alias azure='ssh -i ~/.ssh/sshkey/pro.key ken@???????.cloudapp.net -t /bin/zsh'
+#alias wd='sudo modprobe -r mwifiex_usb'
+
+alias b='bluetoothctl <<< "connect 00:1F:20:3E:C6:2C"'
+alias azure='ssh -i ~/.ssh/sshkey/pro.key ken@?????????.cloudapp.net -t /bin/zsh'
 
 
-alias wd='sudo modprobe -r mwifiex_usb'
+ 
