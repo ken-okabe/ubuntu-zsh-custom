@@ -1,7 +1,10 @@
 ZSH_THEME="ys"
 uname -r
 . ~/.nvm/nvm.sh
-nvm use iojs
+nvm use stable
+
+xrandr --listproviders 
+
 alias s='git add -A -v; git commit -m "commit"'
 alias sp="s; git push origin master"
 alias a="atom ./"
